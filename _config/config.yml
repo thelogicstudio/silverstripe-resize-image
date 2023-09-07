@@ -1,0 +1,10 @@
+---
+Name: resizeimagesconfig
+---
+SilverStripe\Assets\Image:
+  extensions:
+    - TheLogicStudio\ResizeImages\ResizeImages
+TheLogicStudio\ResizeImages\ResizeImages:
+  maximum_width: 2000
+  maximum_height: 2000
+---

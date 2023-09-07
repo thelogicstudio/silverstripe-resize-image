@@ -1,0 +1,24 @@
+{
+    "name": "thelogicstudio/silverstripe-resize-image",
+    "description": "A Silverstripe extension to enforce maximum image upload dimensions.",
+    "keywords": [
+        "silverstripe"
+    ],
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "silverstripe/cms": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheLogicStudio\\ResizeImages\\": "src/",
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Simpson",
+            "email": "ian@logicstudio.nz"
+        }
+    ]
+}
