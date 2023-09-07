@@ -29,8 +29,8 @@
             file_put_contents($src, $image->getString());
             exec('convert '.escapeshellarg($src). ' -resize '.escapeshellarg($size).' '.escapeshellarg($dst));
             if(file_exists($dst)) {
-                unlink($dst);
                 $image->setFromLocalFile($dst, $image->getFilename());
+                unlink($dst);
             }
             unlink($src);
         }
