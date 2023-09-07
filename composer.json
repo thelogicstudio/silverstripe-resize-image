@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TheLogicStudio\\ResizeImages\\": "src/",
+            "TheLogicStudio\\ResizeImages\\": "src/"
         }
     },
     "license": "MIT",
