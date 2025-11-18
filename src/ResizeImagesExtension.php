@@ -2,10 +2,10 @@
     namespace TheLogicStudio\ResizeImages;
 
     use SilverStripe\Core\Config\Configurable;
-    use SilverStripe\ORM\DataExtension;
+    use SilverStripe\Core\Extension;
     use SilverStripe\Assets\Image;
 
-    class ResizeImages extends DataExtension {
+    class ResizeImages extends Extension {
         use Configurable;
 
         public function onAfterUpload() {
